@@ -3,10 +3,10 @@
 export const DashboardAdmin = () => {
   return (
     <div>
-        <h1>
-            Contrato creado
-        </h1>
-        <button>Crear</button>
+        <h2>
+           ¡BIENVENIDO A LA CREACION DE CONTRATOS!
+        </h2>
+        <button>Crear Contrato</button>
     </div>
   )
 }

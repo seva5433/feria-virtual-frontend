@@ -6,6 +6,7 @@ import DashboardCI from './dashboardCI/DashboardCI';
 import DashboardPD from './dashboardPD/DashboardPD';
 import DashboardTA from './dashboardTA/DashboardTA';
 import { DashboardAdmin } from './dashboardAdmin/DashboardAdmin';
+import { FormularioContrato } from './dashboardAdmin/ContractForm';
 const Dashboard = () => {
   const { user, isAuth } = useUsers();
   //  switch (user?.tipo_usuario) {
@@ -28,7 +29,8 @@ const Dashboard = () => {
   return (
     <>
       {
-        <DashboardAdmin/>
+        <FormularioContrato/>
+        //<DashboardCI/>
       /* {isAuth && (
         <>
           {user?.tipo_usuario === '0' && <DashboardCE />}
